@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh Halaman Website</title>
+    <style>
+        /* CSS di dalam HTML */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Contoh Website</h1>
+    </header>
+
+    <section>
+        <h2>Ini adalah Contoh Section</h2>
+        <p>Ini adalah contoh teks di dalam section.</p>
+        <button onclick="ubahWarna()">Ubah Warna</button>
+    </section>
+
+    <script>
+        // JavaScript di dalam HTML
+        function ubahWarna() {
+            document.body.style.backgroundColor = "#f9c722";
+        }
+    </script>
+</body>
+</html>
